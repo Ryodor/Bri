@@ -1,0 +1,24 @@
+html {
+  background-image: url("../image/1.jpg");
+}
+nav {
+  border: 1px black solid;
+}
+ul {
+  display: flex;
+  padding-left: 40%;
+}
+li {
+  margin-right: 10%
+}
+section {
+  width: 500px;
+    height: 185px;
+    padding-left: 43%;
+}
+h1,h3 {
+  color: white;
+}
+table {
+  border: 1px black solid;
+}

@@ -1,0 +1,10 @@
+body {
+    background-image: url("../image/1.jpg");
+}
+
+.etna {
+    margin: 40px;
+    float: right;
+}
+
+

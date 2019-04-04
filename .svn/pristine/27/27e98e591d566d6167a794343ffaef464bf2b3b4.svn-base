@@ -1,0 +1,97 @@
+table{
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    position: relative;
+    top: 215px;
+    width: 65%;
+}
+
+th {
+    padding: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #570906;
+    color: #f2f2f2;
+}
+
+td {
+    border: 0px solid #f2f2f2;
+    text-align: center;
+    padding: 8px;
+}
+
+.name{
+    text-align: left;
+}
+
+tr{
+    background-color: #cdcdcd;
+}
+
+.menu {
+    padding: .7em;
+    float: left;
+    position: absolute;
+    right: 40%;
+    top: 400px;
+    list-style: none;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: .5em;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+}
+
+.button {
+    padding: 0.3em 0.7em;
+    text-decoration: none;
+    color: #555;
+    text-shadow: 0 0px 0 rgba(255,255,255,.5);
+    font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff #ccc #999 #eee;
+    background: #;
+    background: linear-gradient(#f5f5f5, #c1c1c1);
+}
+.button:hover,.input:hover {
+    outline: 0;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    background: #fac754;
+    background: linear-gradient(#fac754, #f8ac00);
+}
+
+.input {
+    background: #d5d5d5;
+    -moz-box-shadow: 0px 0px 4px #000 inset;
+    -webkit-box-shadow: 0px 0px 4px #000 inset;
+    box-shadow: 0px 0px 4px #000 inset;
+    border: 1px solid #000;
+    padding: 5px;
+    color: #444;
+    font-size: 16px;
+}
+
+.recherche {
+    background: #d5d5d5;
+    -moz-box-shadow: 0px 0px 4px #000 inset;
+    -webkit-box-shadow: 0px 0px 4px #000 inset;
+    box-shadow: 0px 0px 4px #000 inset;
+    border: 1px solid #000;
+    padding: 5px;
+    color: #444;
+    font-size: 16px;
+}
+
+h2 {
+    position: relative;
+    right: 37%;
+    top: 460px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #cdcdcd;
+}
